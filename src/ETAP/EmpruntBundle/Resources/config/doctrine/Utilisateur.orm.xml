@@ -4,16 +4,17 @@
     <indexes>
       <index name="IDX_901FF15B8B245A78" columns="CODEPROFIL"/>
     </indexes>
-    <id name="id" type="integer" column="MATRICULE">
+    <id name="id" type="integer" column="ID">
       <generator strategy="SEQUENCE"/>
     </id>
     <field name="login" type="string" column="LOGIN" length="20" nullable="true"/>
+    <field name="matricule" type="integer" column="MATRICULE" nullable="true"/>
     <field name="motdepasse" type="string" column="MOTDEPASSE" length="20" nullable="true"/>
     <field name="nom" type="string" column="NOM" length="20" nullable="true"/>
     <field name="prenom" type="string" column="PRENOM" length="20" nullable="true"/>
     <many-to-one field="codeprofil" target-entity="Profil">
       <join-columns>
-        <join-column name="CODEPROFIL" referenced-column-name="CODEPROFIL"/>
+        <join-column name="CODEPROFIL" referenced-column-name="ID"/>
       </join-columns>
     </many-to-one>
   </entity>

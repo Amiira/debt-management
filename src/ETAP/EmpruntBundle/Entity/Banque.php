@@ -20,6 +20,11 @@ class Banque
     private $refbanque;
 
     /**
+     * @var integer
+     */
+    private $id;
+
+    /**
      * @var \Doctrine\Common\Collections\Collection
      */
     private $refdemande;
@@ -56,6 +61,19 @@ class Banque
     }
 
     /**
+     * Set refbanque
+     *
+     * @param integer $refbanque
+     * @return Banque
+     */
+    public function setRefbanque($refbanque)
+    {
+        $this->refbanque = $refbanque;
+
+        return $this;
+    }
+
+    /**
      * Get refbanque
      *
      * @return integer 
@@ -63,6 +81,16 @@ class Banque
     public function getRefbanque()
     {
         return $this->refbanque;
+    }
+
+    /**
+     * Get id
+     *
+     * @return integer 
+     */
+    public function getId()
+    {
+        return $this->id;
     }
 
     /**

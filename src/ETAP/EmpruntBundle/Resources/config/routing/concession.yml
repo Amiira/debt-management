@@ -1,0 +1,30 @@
+concession:
+    pattern:  /
+    defaults: { _controller: "EmpruntBundle:Concession:index" }
+
+concession_show:
+    pattern:  /{id}/show
+    defaults: { _controller: "EmpruntBundle:Concession:show" }
+
+concession_new:
+    pattern:  /new
+    defaults: { _controller: "EmpruntBundle:Concession:new" }
+
+concession_create:
+    pattern:  /create
+    defaults: { _controller: "EmpruntBundle:Concession:create" }
+    requirements: { _method: post }
+
+concession_edit:
+    pattern:  /{id}/edit
+    defaults: { _controller: "EmpruntBundle:Concession:edit" }
+
+concession_update:
+    pattern:  /{id}/update
+    defaults: { _controller: "EmpruntBundle:Concession:update" }
+    requirements: { _method: post|put }
+
+concession_delete:
+    pattern:  /{id}/delete
+    defaults: { _controller: "EmpruntBundle:Concession:delete" }
+    requirements: { _method: post|delete }

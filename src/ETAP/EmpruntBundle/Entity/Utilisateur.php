@@ -15,6 +15,11 @@ class Utilisateur
     private $login;
 
     /**
+     * @var integer
+     */
+    private $matricule;
+
+    /**
      * @var string
      */
     private $motdepasse;
@@ -61,6 +66,29 @@ class Utilisateur
     public function getLogin()
     {
         return $this->login;
+    }
+
+    /**
+     * Set matricule
+     *
+     * @param integer $matricule
+     * @return Utilisateur
+     */
+    public function setMatricule($matricule)
+    {
+        $this->matricule = $matricule;
+
+        return $this;
+    }
+
+    /**
+     * Get matricule
+     *
+     * @return integer 
+     */
+    public function getMatricule()
+    {
+        return $this->matricule;
     }
 
     /**
@@ -133,7 +161,7 @@ class Utilisateur
     }
 
     /**
-     * Get matricule
+     * Get id
      *
      * @return integer 
      */

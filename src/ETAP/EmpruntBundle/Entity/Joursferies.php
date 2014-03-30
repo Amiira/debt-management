@@ -17,12 +17,7 @@ class Joursferies
     /**
      * @var integer
      */
-    private $codejf;
-
-    /**
-     * @var \Doctrine\Common\Collections\Collection
-     */
-    private $codepays;
+    private $id;
 
     /**
      * @var \Doctrine\Common\Collections\Collection
@@ -30,12 +25,17 @@ class Joursferies
     private $numremboursement;
 
     /**
+     * @var \Doctrine\Common\Collections\Collection
+     */
+    private $codepays;
+
+    /**
      * Constructor
      */
     public function __construct()
     {
-        $this->codepays = new \Doctrine\Common\Collections\ArrayCollection();
         $this->numremboursement = new \Doctrine\Common\Collections\ArrayCollection();
+        $this->codepays = new \Doctrine\Common\Collections\ArrayCollection();
     }
 
     /**
@@ -62,46 +62,13 @@ class Joursferies
     }
 
     /**
-     * Get codejf
+     * Get id
      *
      * @return integer 
      */
-    public function getCodejf()
+    public function getId()
     {
-        return $this->codejf;
-    }
-
-    /**
-     * Add codepays
-     *
-     * @param \ETAP\EmpruntBundle\Entity\Pays $codepays
-     * @return Joursferies
-     */
-    public function addCodepay(\ETAP\EmpruntBundle\Entity\Pays $codepays)
-    {
-        $this->codepays[] = $codepays;
-
-        return $this;
-    }
-
-    /**
-     * Remove codepays
-     *
-     * @param \ETAP\EmpruntBundle\Entity\Pays $codepays
-     */
-    public function removeCodepay(\ETAP\EmpruntBundle\Entity\Pays $codepays)
-    {
-        $this->codepays->removeElement($codepays);
-    }
-
-    /**
-     * Get codepays
-     *
-     * @return \Doctrine\Common\Collections\Collection 
-     */
-    public function getCodepays()
-    {
-        return $this->codepays;
+        return $this->id;
     }
 
     /**
@@ -135,5 +102,38 @@ class Joursferies
     public function getNumremboursement()
     {
         return $this->numremboursement;
+    }
+
+    /**
+     * Add codepays
+     *
+     * @param \ETAP\EmpruntBundle\Entity\Pays $codepays
+     * @return Joursferies
+     */
+    public function addCodepay(\ETAP\EmpruntBundle\Entity\Pays $codepays)
+    {
+        $this->codepays[] = $codepays;
+
+        return $this;
+    }
+
+    /**
+     * Remove codepays
+     *
+     * @param \ETAP\EmpruntBundle\Entity\Pays $codepays
+     */
+    public function removeCodepay(\ETAP\EmpruntBundle\Entity\Pays $codepays)
+    {
+        $this->codepays->removeElement($codepays);
+    }
+
+    /**
+     * Get codepays
+     *
+     * @return \Doctrine\Common\Collections\Collection 
+     */
+    public function getCodepays()
+    {
+        return $this->codepays;
     }
 }

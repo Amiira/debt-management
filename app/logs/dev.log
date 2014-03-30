@@ -13480,3 +13480,491 @@ SQLSTATE[HY000]: General error: 2289 OCIStmtExecute: ORA-02289: sequence does no
 [2014-03-30 14:58:36] event.DEBUG: Notified event "kernel.response" to listener "Symfony\Bundle\WebProfilerBundle\EventListener\WebDebugToolbarListener::onKernelResponse". [] []
 [2014-03-30 14:58:36] event.DEBUG: Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\StreamedResponseListener::onKernelResponse". [] []
 [2014-03-30 14:58:36] event.DEBUG: Notified event "kernel.terminate" to listener "Symfony\Bundle\SwiftmailerBundle\EventListener\EmailSenderListener::onKernelTerminate". [] []
+[2014-03-30 15:21:10] event.DEBUG: Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ProfilerListener::onKernelRequest". [] []
+[2014-03-30 15:21:10] event.DEBUG: Notified event "kernel.request" to listener "Symfony\Bundle\FrameworkBundle\EventListener\SessionListener::onKernelRequest". [] []
+[2014-03-30 15:21:10] event.DEBUG: Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\FragmentListener::onKernelRequest". [] []
+[2014-03-30 15:21:10] event.DEBUG: Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest". [] []
+[2014-03-30 15:21:10] request.INFO: Matched route "emprunt_homepage" (parameters: "_controller": "ETAP\EmpruntBundle\Controller\DefaultController::dashboardAction", "_route": "emprunt_homepage") [] []
+[2014-03-30 15:21:10] event.DEBUG: Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest". [] []
+[2014-03-30 15:21:10] event.DEBUG: Notified event "kernel.request" to listener "Symfony\Component\Security\Http\Firewall::onKernelRequest". [] []
+[2014-03-30 15:21:10] event.DEBUG: Notified event "kernel.request" to listener "Symfony\Bundle\AsseticBundle\EventListener\RequestListener::onKernelRequest". [] []
+[2014-03-30 15:21:10] event.DEBUG: Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\Fragment\FragmentHandler::onKernelRequest". [] []
+[2014-03-30 15:21:10] event.DEBUG: Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DeprecationLoggerListener::injectLogger". [] []
+[2014-03-30 15:21:10] event.DEBUG: Notified event "kernel.controller" to listener "Symfony\Bundle\FrameworkBundle\DataCollector\RouterDataCollector::onKernelController". [] []
+[2014-03-30 15:21:10] event.DEBUG: Notified event "kernel.controller" to listener "Sensio\Bundle\FrameworkExtraBundle\EventListener\ControllerListener::onKernelController". [] []
+[2014-03-30 15:21:10] event.DEBUG: Notified event "kernel.controller" to listener "Sensio\Bundle\FrameworkExtraBundle\EventListener\ParamConverterListener::onKernelController". [] []
+[2014-03-30 15:21:10] event.DEBUG: Notified event "kernel.controller" to listener "Sensio\Bundle\FrameworkExtraBundle\EventListener\TemplateListener::onKernelController". [] []
+[2014-03-30 15:21:10] event.DEBUG: Notified event "kernel.controller" to listener "Acme\DemoBundle\EventListener\ControllerListener::onKernelController". [] []
+[2014-03-30 15:21:10] event.DEBUG: Notified event "kernel.controller" to listener "Symfony\Component\HttpKernel\DataCollector\RequestDataCollector::onKernelController". [] []
+[2014-03-30 15:21:10] event.DEBUG: Notified event "kernel.response" to listener "Symfony\Bridge\Monolog\Handler\FirePHPHandler::onKernelResponse". [] []
+[2014-03-30 15:21:10] event.DEBUG: Notified event "kernel.response" to listener "Symfony\Bridge\Monolog\Handler\ChromePhpHandler::onKernelResponse". [] []
+[2014-03-30 15:21:10] event.DEBUG: Notified event "kernel.response" to listener "Sensio\Bundle\FrameworkExtraBundle\EventListener\CacheListener::onKernelResponse". [] []
+[2014-03-30 15:21:10] event.DEBUG: Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse". [] []
+[2014-03-30 15:21:10] event.DEBUG: Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelResponse". [] []
+[2014-03-30 15:21:10] event.DEBUG: Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\Fragment\FragmentHandler::onKernelResponse". [] []
+[2014-03-30 15:21:10] event.DEBUG: Notified event "kernel.response" to listener "Symfony\Component\Security\Http\RememberMe\ResponseListener::onKernelResponse". [] []
+[2014-03-30 15:21:10] event.DEBUG: Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ProfilerListener::onKernelResponse". [] []
+[2014-03-30 15:21:10] event.DEBUG: Notified event "kernel.response" to listener "Symfony\Bundle\WebProfilerBundle\EventListener\WebDebugToolbarListener::onKernelResponse". [] []
+[2014-03-30 15:21:10] event.DEBUG: Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\StreamedResponseListener::onKernelResponse". [] []
+[2014-03-30 15:21:10] event.DEBUG: Notified event "kernel.terminate" to listener "Symfony\Bundle\SwiftmailerBundle\EventListener\EmailSenderListener::onKernelTerminate". [] []
+[2014-03-30 15:21:11] event.DEBUG: Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ProfilerListener::onKernelRequest". [] []
+[2014-03-30 15:21:11] event.DEBUG: Notified event "kernel.request" to listener "Symfony\Bundle\FrameworkBundle\EventListener\SessionListener::onKernelRequest". [] []
+[2014-03-30 15:21:11] event.DEBUG: Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\FragmentListener::onKernelRequest". [] []
+[2014-03-30 15:21:11] event.DEBUG: Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest". [] []
+[2014-03-30 15:21:11] request.INFO: Matched route "_wdt" (parameters: "_controller": "web_profiler.controller.profiler:toolbarAction", "token": "b8db74", "_route": "_wdt") [] []
+[2014-03-30 15:21:11] event.DEBUG: Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest". [] []
+[2014-03-30 15:21:11] event.DEBUG: Notified event "kernel.request" to listener "Symfony\Component\Security\Http\Firewall::onKernelRequest". [] []
+[2014-03-30 15:21:11] event.DEBUG: Notified event "kernel.request" to listener "Symfony\Bundle\AsseticBundle\EventListener\RequestListener::onKernelRequest". [] []
+[2014-03-30 15:21:11] event.DEBUG: Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\Fragment\FragmentHandler::onKernelRequest". [] []
+[2014-03-30 15:21:11] event.DEBUG: Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DeprecationLoggerListener::injectLogger". [] []
+[2014-03-30 15:21:11] event.DEBUG: Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ProfilerListener::onKernelRequest". [] []
+[2014-03-30 15:21:11] event.DEBUG: Notified event "kernel.request" to listener "Symfony\Bundle\FrameworkBundle\EventListener\SessionListener::onKernelRequest". [] []
+[2014-03-30 15:21:11] event.DEBUG: Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\FragmentListener::onKernelRequest". [] []
+[2014-03-30 15:21:11] event.DEBUG: Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest". [] []
+[2014-03-30 15:21:11] event.DEBUG: Notified event "kernel.controller" to listener "Symfony\Bundle\FrameworkBundle\DataCollector\RouterDataCollector::onKernelController". [] []
+[2014-03-30 15:21:11] event.DEBUG: Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ProfilerListener::onKernelException". [] []
+[2014-03-30 15:21:11] event.DEBUG: Notified event "kernel.controller" to listener "Sensio\Bundle\FrameworkExtraBundle\EventListener\ControllerListener::onKernelController". [] []
+[2014-03-30 15:21:11] event.DEBUG: Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ExceptionListener::onKernelException". [] []
+[2014-03-30 15:21:11] request.ERROR: Uncaught PHP Exception Symfony\Component\HttpKernel\Exception\NotFoundHttpException: "No route found for "GET /index/css/style.custombg.css"" at C:\wamp\www\GestionEmprunt\app\cache\dev\classes.php line 3682 [] []
+[2014-03-30 15:21:11] event.DEBUG: Notified event "kernel.controller" to listener "Sensio\Bundle\FrameworkExtraBundle\EventListener\ParamConverterListener::onKernelController". [] []
+[2014-03-30 15:21:11] event.DEBUG: Notified event "kernel.controller" to listener "Sensio\Bundle\FrameworkExtraBundle\EventListener\TemplateListener::onKernelController". [] []
+[2014-03-30 15:21:11] event.DEBUG: Notified event "kernel.controller" to listener "Acme\DemoBundle\EventListener\ControllerListener::onKernelController". [] []
+[2014-03-30 15:21:11] event.DEBUG: Notified event "kernel.controller" to listener "Symfony\Component\HttpKernel\DataCollector\RequestDataCollector::onKernelController". [] []
+[2014-03-30 15:21:11] event.DEBUG: Notified event "kernel.request" to listener "closure". [] []
+[2014-03-30 15:21:11] event.DEBUG: Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ProfilerListener::onKernelRequest". [] []
+[2014-03-30 15:21:11] event.DEBUG: Notified event "kernel.request" to listener "closure". [] []
+[2014-03-30 15:21:11] event.DEBUG: Notified event "kernel.request" to listener "Symfony\Bundle\FrameworkBundle\EventListener\SessionListener::onKernelRequest". [] []
+[2014-03-30 15:21:11] event.DEBUG: Notified event "kernel.request" to listener "closure". [] []
+[2014-03-30 15:21:11] event.DEBUG: Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\FragmentListener::onKernelRequest". [] []
+[2014-03-30 15:21:11] event.DEBUG: Notified event "kernel.request" to listener "closure". [] []
+[2014-03-30 15:21:11] event.DEBUG: Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest". [] []
+[2014-03-30 15:21:11] event.DEBUG: Notified event "kernel.request" to listener "closure". [] []
+[2014-03-30 15:21:11] event.DEBUG: Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest". [] []
+[2014-03-30 15:21:11] event.DEBUG: Notified event "kernel.request" to listener "closure". [] []
+[2014-03-30 15:21:11] event.DEBUG: Notified event "kernel.request" to listener "Symfony\Component\Security\Http\Firewall::onKernelRequest". [] []
+[2014-03-30 15:21:11] event.DEBUG: Notified event "kernel.request" to listener "closure". [] []
+[2014-03-30 15:21:11] event.DEBUG: Notified event "kernel.request" to listener "Symfony\Bundle\AsseticBundle\EventListener\RequestListener::onKernelRequest". [] []
+[2014-03-30 15:21:11] event.DEBUG: Notified event "kernel.request" to listener "closure". [] []
+[2014-03-30 15:21:11] event.DEBUG: Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\Fragment\FragmentHandler::onKernelRequest". [] []
+[2014-03-30 15:21:11] event.DEBUG: Notified event "kernel.request" to listener "closure". [] []
+[2014-03-30 15:21:11] event.DEBUG: Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DeprecationLoggerListener::injectLogger". [] []
+[2014-03-30 15:21:11] event.DEBUG: Notified event "kernel.controller" to listener "Symfony\Bundle\FrameworkBundle\DataCollector\RouterDataCollector::onKernelController". [] []
+[2014-03-30 15:21:11] event.DEBUG: Notified event "kernel.controller" to listener "Sensio\Bundle\FrameworkExtraBundle\EventListener\ControllerListener::onKernelController". [] []
+[2014-03-30 15:21:11] event.DEBUG: Notified event "kernel.controller" to listener "Sensio\Bundle\FrameworkExtraBundle\EventListener\ParamConverterListener::onKernelController". [] []
+[2014-03-30 15:21:11] event.DEBUG: Notified event "kernel.controller" to listener "Sensio\Bundle\FrameworkExtraBundle\EventListener\TemplateListener::onKernelController". [] []
+[2014-03-30 15:21:11] event.DEBUG: Notified event "kernel.controller" to listener "Acme\DemoBundle\EventListener\ControllerListener::onKernelController". [] []
+[2014-03-30 15:21:11] event.DEBUG: Notified event "kernel.controller" to listener "Symfony\Component\HttpKernel\DataCollector\RequestDataCollector::onKernelController". [] []
+[2014-03-30 15:21:12] event.DEBUG: Notified event "kernel.response" to listener "Symfony\Bridge\Monolog\Handler\FirePHPHandler::onKernelResponse". [] []
+[2014-03-30 15:21:12] event.DEBUG: Notified event "kernel.response" to listener "Symfony\Bridge\Monolog\Handler\ChromePhpHandler::onKernelResponse". [] []
+[2014-03-30 15:21:12] event.DEBUG: Notified event "kernel.response" to listener "Sensio\Bundle\FrameworkExtraBundle\EventListener\CacheListener::onKernelResponse". [] []
+[2014-03-30 15:21:12] event.DEBUG: Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse". [] []
+[2014-03-30 15:21:12] event.DEBUG: Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelResponse". [] []
+[2014-03-30 15:21:12] event.DEBUG: Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\Fragment\FragmentHandler::onKernelResponse". [] []
+[2014-03-30 15:21:12] event.DEBUG: Notified event "kernel.response" to listener "Symfony\Component\Security\Http\RememberMe\ResponseListener::onKernelResponse". [] []
+[2014-03-30 15:21:12] event.DEBUG: Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ProfilerListener::onKernelResponse". [] []
+[2014-03-30 15:21:12] event.DEBUG: Notified event "kernel.response" to listener "Symfony\Bundle\WebProfilerBundle\EventListener\WebDebugToolbarListener::onKernelResponse". [] []
+[2014-03-30 15:21:12] event.DEBUG: Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\StreamedResponseListener::onKernelResponse". [] []
+[2014-03-30 15:21:12] event.DEBUG: Notified event "kernel.terminate" to listener "Symfony\Bundle\SwiftmailerBundle\EventListener\EmailSenderListener::onKernelTerminate". [] []
+[2014-03-30 15:21:13] event.DEBUG: Notified event "kernel.response" to listener "Symfony\Bridge\Monolog\Handler\FirePHPHandler::onKernelResponse". [] []
+[2014-03-30 15:21:13] event.DEBUG: Notified event "kernel.response" to listener "Symfony\Bridge\Monolog\Handler\ChromePhpHandler::onKernelResponse". [] []
+[2014-03-30 15:21:13] event.DEBUG: Notified event "kernel.response" to listener "Sensio\Bundle\FrameworkExtraBundle\EventListener\CacheListener::onKernelResponse". [] []
+[2014-03-30 15:21:13] event.DEBUG: Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse". [] []
+[2014-03-30 15:21:13] event.DEBUG: Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelResponse". [] []
+[2014-03-30 15:21:13] event.DEBUG: Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\Fragment\FragmentHandler::onKernelResponse". [] []
+[2014-03-30 15:21:13] event.DEBUG: Notified event "kernel.response" to listener "Symfony\Component\Security\Http\RememberMe\ResponseListener::onKernelResponse". [] []
+[2014-03-30 15:21:13] event.DEBUG: Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ProfilerListener::onKernelResponse". [] []
+[2014-03-30 15:21:13] event.DEBUG: Notified event "kernel.response" to listener "Symfony\Bundle\WebProfilerBundle\EventListener\WebDebugToolbarListener::onKernelResponse". [] []
+[2014-03-30 15:21:13] event.DEBUG: Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\StreamedResponseListener::onKernelResponse". [] []
+[2014-03-30 15:21:13] event.DEBUG: Listener "Symfony\Component\HttpKernel\EventListener\ExceptionListener::onKernelException" stopped propagation of the event "kernel.exception". [] []
+[2014-03-30 15:21:13] event.DEBUG: Notified event "kernel.response" to listener "Symfony\Bridge\Monolog\Handler\FirePHPHandler::onKernelResponse". [] []
+[2014-03-30 15:21:13] event.DEBUG: Notified event "kernel.response" to listener "Symfony\Bridge\Monolog\Handler\ChromePhpHandler::onKernelResponse". [] []
+[2014-03-30 15:21:13] event.DEBUG: Notified event "kernel.response" to listener "Sensio\Bundle\FrameworkExtraBundle\EventListener\CacheListener::onKernelResponse". [] []
+[2014-03-30 15:21:13] event.DEBUG: Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse". [] []
+[2014-03-30 15:21:13] event.DEBUG: Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelResponse". [] []
+[2014-03-30 15:21:13] event.DEBUG: Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\Fragment\FragmentHandler::onKernelResponse". [] []
+[2014-03-30 15:21:13] event.DEBUG: Notified event "kernel.response" to listener "Symfony\Component\Security\Http\RememberMe\ResponseListener::onKernelResponse". [] []
+[2014-03-30 15:21:13] event.DEBUG: Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ProfilerListener::onKernelResponse". [] []
+[2014-03-30 15:21:13] event.DEBUG: Notified event "kernel.response" to listener "Symfony\Bundle\WebProfilerBundle\EventListener\WebDebugToolbarListener::onKernelResponse". [] []
+[2014-03-30 15:21:13] event.DEBUG: Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\StreamedResponseListener::onKernelResponse". [] []
+[2014-03-30 15:21:13] event.DEBUG: Notified event "kernel.terminate" to listener "Symfony\Bundle\SwiftmailerBundle\EventListener\EmailSenderListener::onKernelTerminate". [] []
+[2014-03-30 15:26:45] doctrine.DEBUG: SELECT * FROM sys.user_tables [] []
+[2014-03-30 15:26:46] doctrine.DEBUG: SELECT c.*, d.comments FROM all_tab_columns c INNER JOIN user_col_comments d ON d.TABLE_NAME = c.TABLE_NAME AND d.COLUMN_NAME = c.COLUMN_NAME WHERE c.table_name = 'PAYSJF' AND c.owner = 'ETAP' ORDER BY c.column_name [] []
+[2014-03-30 15:26:47] doctrine.DEBUG: SELECT alc.constraint_name,
+          alc.DELETE_RULE,
+          alc.search_condition,
+          cols.column_name "local_column",
+          cols.position,
+          r_alc.table_name "references_table",
+          r_cols.column_name "foreign_column"
+     FROM user_cons_columns cols
+LEFT JOIN user_constraints alc
+       ON alc.constraint_name = cols.constraint_name
+LEFT JOIN user_constraints r_alc
+       ON alc.r_constraint_name = r_alc.constraint_name
+LEFT JOIN user_cons_columns r_cols
+       ON r_alc.constraint_name = r_cols.constraint_name
+      AND cols.position = r_cols.position
+    WHERE alc.constraint_name = cols.constraint_name
+      AND alc.constraint_type = 'R'
+      AND alc.table_name = 'PAYSJF' [] []
+[2014-03-30 15:26:47] doctrine.DEBUG: SELECT uind.index_name AS name,        uind.index_type AS type,        decode( uind.uniqueness, 'NONUNIQUE', 0, 'UNIQUE', 1 ) AS is_unique,        uind_col.column_name AS column_name,        uind_col.column_position AS column_pos,        (SELECT ucon.constraint_type FROM user_constraints ucon WHERE ucon.constraint_name = uind.index_name) AS is_primary FROM user_indexes uind, user_ind_columns uind_col WHERE uind.index_name = uind_col.index_name AND uind_col.table_name = 'PAYSJF' ORDER BY uind_col.column_position ASC [] []
+[2014-03-30 15:26:48] doctrine.DEBUG: SELECT c.*, d.comments FROM all_tab_columns c INNER JOIN user_col_comments d ON d.TABLE_NAME = c.TABLE_NAME AND d.COLUMN_NAME = c.COLUMN_NAME WHERE c.table_name = 'REMBOURSEMENTJF' AND c.owner = 'ETAP' ORDER BY c.column_name [] []
+[2014-03-30 15:26:48] doctrine.DEBUG: SELECT alc.constraint_name,
+          alc.DELETE_RULE,
+          alc.search_condition,
+          cols.column_name "local_column",
+          cols.position,
+          r_alc.table_name "references_table",
+          r_cols.column_name "foreign_column"
+     FROM user_cons_columns cols
+LEFT JOIN user_constraints alc
+       ON alc.constraint_name = cols.constraint_name
+LEFT JOIN user_constraints r_alc
+       ON alc.r_constraint_name = r_alc.constraint_name
+LEFT JOIN user_cons_columns r_cols
+       ON r_alc.constraint_name = r_cols.constraint_name
+      AND cols.position = r_cols.position
+    WHERE alc.constraint_name = cols.constraint_name
+      AND alc.constraint_type = 'R'
+      AND alc.table_name = 'REMBOURSEMENTJF' [] []
+[2014-03-30 15:26:48] doctrine.DEBUG: SELECT uind.index_name AS name,        uind.index_type AS type,        decode( uind.uniqueness, 'NONUNIQUE', 0, 'UNIQUE', 1 ) AS is_unique,        uind_col.column_name AS column_name,        uind_col.column_position AS column_pos,        (SELECT ucon.constraint_type FROM user_constraints ucon WHERE ucon.constraint_name = uind.index_name) AS is_primary FROM user_indexes uind, user_ind_columns uind_col WHERE uind.index_name = uind_col.index_name AND uind_col.table_name = 'REMBOURSEMENTJF' ORDER BY uind_col.column_position ASC [] []
+[2014-03-30 15:26:48] doctrine.DEBUG: SELECT c.*, d.comments FROM all_tab_columns c INNER JOIN user_col_comments d ON d.TABLE_NAME = c.TABLE_NAME AND d.COLUMN_NAME = c.COLUMN_NAME WHERE c.table_name = 'TIRAGECONCESSION' AND c.owner = 'ETAP' ORDER BY c.column_name [] []
+[2014-03-30 15:26:48] doctrine.DEBUG: SELECT alc.constraint_name,
+          alc.DELETE_RULE,
+          alc.search_condition,
+          cols.column_name "local_column",
+          cols.position,
+          r_alc.table_name "references_table",
+          r_cols.column_name "foreign_column"
+     FROM user_cons_columns cols
+LEFT JOIN user_constraints alc
+       ON alc.constraint_name = cols.constraint_name
+LEFT JOIN user_constraints r_alc
+       ON alc.r_constraint_name = r_alc.constraint_name
+LEFT JOIN user_cons_columns r_cols
+       ON r_alc.constraint_name = r_cols.constraint_name
+      AND cols.position = r_cols.position
+    WHERE alc.constraint_name = cols.constraint_name
+      AND alc.constraint_type = 'R'
+      AND alc.table_name = 'TIRAGECONCESSION' [] []
+[2014-03-30 15:26:49] doctrine.DEBUG: SELECT uind.index_name AS name,        uind.index_type AS type,        decode( uind.uniqueness, 'NONUNIQUE', 0, 'UNIQUE', 1 ) AS is_unique,        uind_col.column_name AS column_name,        uind_col.column_position AS column_pos,        (SELECT ucon.constraint_type FROM user_constraints ucon WHERE ucon.constraint_name = uind.index_name) AS is_primary FROM user_indexes uind, user_ind_columns uind_col WHERE uind.index_name = uind_col.index_name AND uind_col.table_name = 'TIRAGECONCESSION' ORDER BY uind_col.column_position ASC [] []
+[2014-03-30 15:26:49] doctrine.DEBUG: SELECT c.*, d.comments FROM all_tab_columns c INNER JOIN user_col_comments d ON d.TABLE_NAME = c.TABLE_NAME AND d.COLUMN_NAME = c.COLUMN_NAME WHERE c.table_name = 'BESOINCONCESSION' AND c.owner = 'ETAP' ORDER BY c.column_name [] []
+[2014-03-30 15:26:49] doctrine.DEBUG: SELECT alc.constraint_name,
+          alc.DELETE_RULE,
+          alc.search_condition,
+          cols.column_name "local_column",
+          cols.position,
+          r_alc.table_name "references_table",
+          r_cols.column_name "foreign_column"
+     FROM user_cons_columns cols
+LEFT JOIN user_constraints alc
+       ON alc.constraint_name = cols.constraint_name
+LEFT JOIN user_constraints r_alc
+       ON alc.r_constraint_name = r_alc.constraint_name
+LEFT JOIN user_cons_columns r_cols
+       ON r_alc.constraint_name = r_cols.constraint_name
+      AND cols.position = r_cols.position
+    WHERE alc.constraint_name = cols.constraint_name
+      AND alc.constraint_type = 'R'
+      AND alc.table_name = 'BESOINCONCESSION' [] []
+[2014-03-30 15:26:50] doctrine.DEBUG: SELECT uind.index_name AS name,        uind.index_type AS type,        decode( uind.uniqueness, 'NONUNIQUE', 0, 'UNIQUE', 1 ) AS is_unique,        uind_col.column_name AS column_name,        uind_col.column_position AS column_pos,        (SELECT ucon.constraint_type FROM user_constraints ucon WHERE ucon.constraint_name = uind.index_name) AS is_primary FROM user_indexes uind, user_ind_columns uind_col WHERE uind.index_name = uind_col.index_name AND uind_col.table_name = 'BESOINCONCESSION' ORDER BY uind_col.column_position ASC [] []
+[2014-03-30 15:26:50] doctrine.DEBUG: SELECT c.*, d.comments FROM all_tab_columns c INNER JOIN user_col_comments d ON d.TABLE_NAME = c.TABLE_NAME AND d.COLUMN_NAME = c.COLUMN_NAME WHERE c.table_name = 'BANQUEDEMANDE' AND c.owner = 'ETAP' ORDER BY c.column_name [] []
+[2014-03-30 15:26:50] doctrine.DEBUG: SELECT alc.constraint_name,
+          alc.DELETE_RULE,
+          alc.search_condition,
+          cols.column_name "local_column",
+          cols.position,
+          r_alc.table_name "references_table",
+          r_cols.column_name "foreign_column"
+     FROM user_cons_columns cols
+LEFT JOIN user_constraints alc
+       ON alc.constraint_name = cols.constraint_name
+LEFT JOIN user_constraints r_alc
+       ON alc.r_constraint_name = r_alc.constraint_name
+LEFT JOIN user_cons_columns r_cols
+       ON r_alc.constraint_name = r_cols.constraint_name
+      AND cols.position = r_cols.position
+    WHERE alc.constraint_name = cols.constraint_name
+      AND alc.constraint_type = 'R'
+      AND alc.table_name = 'BANQUEDEMANDE' [] []
+[2014-03-30 15:26:50] doctrine.DEBUG: SELECT uind.index_name AS name,        uind.index_type AS type,        decode( uind.uniqueness, 'NONUNIQUE', 0, 'UNIQUE', 1 ) AS is_unique,        uind_col.column_name AS column_name,        uind_col.column_position AS column_pos,        (SELECT ucon.constraint_type FROM user_constraints ucon WHERE ucon.constraint_name = uind.index_name) AS is_primary FROM user_indexes uind, user_ind_columns uind_col WHERE uind.index_name = uind_col.index_name AND uind_col.table_name = 'BANQUEDEMANDE' ORDER BY uind_col.column_position ASC [] []
+[2014-03-30 15:26:50] doctrine.DEBUG: SELECT c.*, d.comments FROM all_tab_columns c INNER JOIN user_col_comments d ON d.TABLE_NAME = c.TABLE_NAME AND d.COLUMN_NAME = c.COLUMN_NAME WHERE c.table_name = 'CONTRATCOMMISSION' AND c.owner = 'ETAP' ORDER BY c.column_name [] []
+[2014-03-30 15:26:50] doctrine.DEBUG: SELECT alc.constraint_name,
+          alc.DELETE_RULE,
+          alc.search_condition,
+          cols.column_name "local_column",
+          cols.position,
+          r_alc.table_name "references_table",
+          r_cols.column_name "foreign_column"
+     FROM user_cons_columns cols
+LEFT JOIN user_constraints alc
+       ON alc.constraint_name = cols.constraint_name
+LEFT JOIN user_constraints r_alc
+       ON alc.r_constraint_name = r_alc.constraint_name
+LEFT JOIN user_cons_columns r_cols
+       ON r_alc.constraint_name = r_cols.constraint_name
+      AND cols.position = r_cols.position
+    WHERE alc.constraint_name = cols.constraint_name
+      AND alc.constraint_type = 'R'
+      AND alc.table_name = 'CONTRATCOMMISSION' [] []
+[2014-03-30 15:26:51] doctrine.DEBUG: SELECT uind.index_name AS name,        uind.index_type AS type,        decode( uind.uniqueness, 'NONUNIQUE', 0, 'UNIQUE', 1 ) AS is_unique,        uind_col.column_name AS column_name,        uind_col.column_position AS column_pos,        (SELECT ucon.constraint_type FROM user_constraints ucon WHERE ucon.constraint_name = uind.index_name) AS is_primary FROM user_indexes uind, user_ind_columns uind_col WHERE uind.index_name = uind_col.index_name AND uind_col.table_name = 'CONTRATCOMMISSION' ORDER BY uind_col.column_position ASC [] []
+[2014-03-30 15:26:51] doctrine.DEBUG: SELECT c.*, d.comments FROM all_tab_columns c INNER JOIN user_col_comments d ON d.TABLE_NAME = c.TABLE_NAME AND d.COLUMN_NAME = c.COLUMN_NAME WHERE c.table_name = 'REMBOURSEMENT' AND c.owner = 'ETAP' ORDER BY c.column_name [] []
+[2014-03-30 15:26:51] doctrine.DEBUG: SELECT alc.constraint_name,
+          alc.DELETE_RULE,
+          alc.search_condition,
+          cols.column_name "local_column",
+          cols.position,
+          r_alc.table_name "references_table",
+          r_cols.column_name "foreign_column"
+     FROM user_cons_columns cols
+LEFT JOIN user_constraints alc
+       ON alc.constraint_name = cols.constraint_name
+LEFT JOIN user_constraints r_alc
+       ON alc.r_constraint_name = r_alc.constraint_name
+LEFT JOIN user_cons_columns r_cols
+       ON r_alc.constraint_name = r_cols.constraint_name
+      AND cols.position = r_cols.position
+    WHERE alc.constraint_name = cols.constraint_name
+      AND alc.constraint_type = 'R'
+      AND alc.table_name = 'REMBOURSEMENT' [] []
+[2014-03-30 15:26:51] doctrine.DEBUG: SELECT uind.index_name AS name,        uind.index_type AS type,        decode( uind.uniqueness, 'NONUNIQUE', 0, 'UNIQUE', 1 ) AS is_unique,        uind_col.column_name AS column_name,        uind_col.column_position AS column_pos,        (SELECT ucon.constraint_type FROM user_constraints ucon WHERE ucon.constraint_name = uind.index_name) AS is_primary FROM user_indexes uind, user_ind_columns uind_col WHERE uind.index_name = uind_col.index_name AND uind_col.table_name = 'REMBOURSEMENT' ORDER BY uind_col.column_position ASC [] []
+[2014-03-30 15:26:52] doctrine.DEBUG: SELECT c.*, d.comments FROM all_tab_columns c INNER JOIN user_col_comments d ON d.TABLE_NAME = c.TABLE_NAME AND d.COLUMN_NAME = c.COLUMN_NAME WHERE c.table_name = 'TIRAGE' AND c.owner = 'ETAP' ORDER BY c.column_name [] []
+[2014-03-30 15:26:52] doctrine.DEBUG: SELECT alc.constraint_name,
+          alc.DELETE_RULE,
+          alc.search_condition,
+          cols.column_name "local_column",
+          cols.position,
+          r_alc.table_name "references_table",
+          r_cols.column_name "foreign_column"
+     FROM user_cons_columns cols
+LEFT JOIN user_constraints alc
+       ON alc.constraint_name = cols.constraint_name
+LEFT JOIN user_constraints r_alc
+       ON alc.r_constraint_name = r_alc.constraint_name
+LEFT JOIN user_cons_columns r_cols
+       ON r_alc.constraint_name = r_cols.constraint_name
+      AND cols.position = r_cols.position
+    WHERE alc.constraint_name = cols.constraint_name
+      AND alc.constraint_type = 'R'
+      AND alc.table_name = 'TIRAGE' [] []
+[2014-03-30 15:26:52] doctrine.DEBUG: SELECT uind.index_name AS name,        uind.index_type AS type,        decode( uind.uniqueness, 'NONUNIQUE', 0, 'UNIQUE', 1 ) AS is_unique,        uind_col.column_name AS column_name,        uind_col.column_position AS column_pos,        (SELECT ucon.constraint_type FROM user_constraints ucon WHERE ucon.constraint_name = uind.index_name) AS is_primary FROM user_indexes uind, user_ind_columns uind_col WHERE uind.index_name = uind_col.index_name AND uind_col.table_name = 'TIRAGE' ORDER BY uind_col.column_position ASC [] []
+[2014-03-30 15:26:52] doctrine.DEBUG: SELECT c.*, d.comments FROM all_tab_columns c INNER JOIN user_col_comments d ON d.TABLE_NAME = c.TABLE_NAME AND d.COLUMN_NAME = c.COLUMN_NAME WHERE c.table_name = 'CONTRAT' AND c.owner = 'ETAP' ORDER BY c.column_name [] []
+[2014-03-30 15:26:52] doctrine.DEBUG: SELECT alc.constraint_name,
+          alc.DELETE_RULE,
+          alc.search_condition,
+          cols.column_name "local_column",
+          cols.position,
+          r_alc.table_name "references_table",
+          r_cols.column_name "foreign_column"
+     FROM user_cons_columns cols
+LEFT JOIN user_constraints alc
+       ON alc.constraint_name = cols.constraint_name
+LEFT JOIN user_constraints r_alc
+       ON alc.r_constraint_name = r_alc.constraint_name
+LEFT JOIN user_cons_columns r_cols
+       ON r_alc.constraint_name = r_cols.constraint_name
+      AND cols.position = r_cols.position
+    WHERE alc.constraint_name = cols.constraint_name
+      AND alc.constraint_type = 'R'
+      AND alc.table_name = 'CONTRAT' [] []
+[2014-03-30 15:26:53] doctrine.DEBUG: SELECT uind.index_name AS name,        uind.index_type AS type,        decode( uind.uniqueness, 'NONUNIQUE', 0, 'UNIQUE', 1 ) AS is_unique,        uind_col.column_name AS column_name,        uind_col.column_position AS column_pos,        (SELECT ucon.constraint_type FROM user_constraints ucon WHERE ucon.constraint_name = uind.index_name) AS is_primary FROM user_indexes uind, user_ind_columns uind_col WHERE uind.index_name = uind_col.index_name AND uind_col.table_name = 'CONTRAT' ORDER BY uind_col.column_position ASC [] []
+[2014-03-30 15:26:53] doctrine.DEBUG: SELECT c.*, d.comments FROM all_tab_columns c INNER JOIN user_col_comments d ON d.TABLE_NAME = c.TABLE_NAME AND d.COLUMN_NAME = c.COLUMN_NAME WHERE c.table_name = 'OFFRE' AND c.owner = 'ETAP' ORDER BY c.column_name [] []
+[2014-03-30 15:26:53] doctrine.DEBUG: SELECT alc.constraint_name,
+          alc.DELETE_RULE,
+          alc.search_condition,
+          cols.column_name "local_column",
+          cols.position,
+          r_alc.table_name "references_table",
+          r_cols.column_name "foreign_column"
+     FROM user_cons_columns cols
+LEFT JOIN user_constraints alc
+       ON alc.constraint_name = cols.constraint_name
+LEFT JOIN user_constraints r_alc
+       ON alc.r_constraint_name = r_alc.constraint_name
+LEFT JOIN user_cons_columns r_cols
+       ON r_alc.constraint_name = r_cols.constraint_name
+      AND cols.position = r_cols.position
+    WHERE alc.constraint_name = cols.constraint_name
+      AND alc.constraint_type = 'R'
+      AND alc.table_name = 'OFFRE' [] []
+[2014-03-30 15:26:53] doctrine.DEBUG: SELECT uind.index_name AS name,        uind.index_type AS type,        decode( uind.uniqueness, 'NONUNIQUE', 0, 'UNIQUE', 1 ) AS is_unique,        uind_col.column_name AS column_name,        uind_col.column_position AS column_pos,        (SELECT ucon.constraint_type FROM user_constraints ucon WHERE ucon.constraint_name = uind.index_name) AS is_primary FROM user_indexes uind, user_ind_columns uind_col WHERE uind.index_name = uind_col.index_name AND uind_col.table_name = 'OFFRE' ORDER BY uind_col.column_position ASC [] []
+[2014-03-30 15:26:53] doctrine.DEBUG: SELECT c.*, d.comments FROM all_tab_columns c INNER JOIN user_col_comments d ON d.TABLE_NAME = c.TABLE_NAME AND d.COLUMN_NAME = c.COLUMN_NAME WHERE c.table_name = 'DEMANDE' AND c.owner = 'ETAP' ORDER BY c.column_name [] []
+[2014-03-30 15:26:53] doctrine.DEBUG: SELECT alc.constraint_name,
+          alc.DELETE_RULE,
+          alc.search_condition,
+          cols.column_name "local_column",
+          cols.position,
+          r_alc.table_name "references_table",
+          r_cols.column_name "foreign_column"
+     FROM user_cons_columns cols
+LEFT JOIN user_constraints alc
+       ON alc.constraint_name = cols.constraint_name
+LEFT JOIN user_constraints r_alc
+       ON alc.r_constraint_name = r_alc.constraint_name
+LEFT JOIN user_cons_columns r_cols
+       ON r_alc.constraint_name = r_cols.constraint_name
+      AND cols.position = r_cols.position
+    WHERE alc.constraint_name = cols.constraint_name
+      AND alc.constraint_type = 'R'
+      AND alc.table_name = 'DEMANDE' [] []
+[2014-03-30 15:26:54] doctrine.DEBUG: SELECT uind.index_name AS name,        uind.index_type AS type,        decode( uind.uniqueness, 'NONUNIQUE', 0, 'UNIQUE', 1 ) AS is_unique,        uind_col.column_name AS column_name,        uind_col.column_position AS column_pos,        (SELECT ucon.constraint_type FROM user_constraints ucon WHERE ucon.constraint_name = uind.index_name) AS is_primary FROM user_indexes uind, user_ind_columns uind_col WHERE uind.index_name = uind_col.index_name AND uind_col.table_name = 'DEMANDE' ORDER BY uind_col.column_position ASC [] []
+[2014-03-30 15:26:54] doctrine.DEBUG: SELECT c.*, d.comments FROM all_tab_columns c INNER JOIN user_col_comments d ON d.TABLE_NAME = c.TABLE_NAME AND d.COLUMN_NAME = c.COLUMN_NAME WHERE c.table_name = 'PAYS' AND c.owner = 'ETAP' ORDER BY c.column_name [] []
+[2014-03-30 15:26:54] doctrine.DEBUG: SELECT alc.constraint_name,
+          alc.DELETE_RULE,
+          alc.search_condition,
+          cols.column_name "local_column",
+          cols.position,
+          r_alc.table_name "references_table",
+          r_cols.column_name "foreign_column"
+     FROM user_cons_columns cols
+LEFT JOIN user_constraints alc
+       ON alc.constraint_name = cols.constraint_name
+LEFT JOIN user_constraints r_alc
+       ON alc.r_constraint_name = r_alc.constraint_name
+LEFT JOIN user_cons_columns r_cols
+       ON r_alc.constraint_name = r_cols.constraint_name
+      AND cols.position = r_cols.position
+    WHERE alc.constraint_name = cols.constraint_name
+      AND alc.constraint_type = 'R'
+      AND alc.table_name = 'PAYS' [] []
+[2014-03-30 15:26:54] doctrine.DEBUG: SELECT uind.index_name AS name,        uind.index_type AS type,        decode( uind.uniqueness, 'NONUNIQUE', 0, 'UNIQUE', 1 ) AS is_unique,        uind_col.column_name AS column_name,        uind_col.column_position AS column_pos,        (SELECT ucon.constraint_type FROM user_constraints ucon WHERE ucon.constraint_name = uind.index_name) AS is_primary FROM user_indexes uind, user_ind_columns uind_col WHERE uind.index_name = uind_col.index_name AND uind_col.table_name = 'PAYS' ORDER BY uind_col.column_position ASC [] []
+[2014-03-30 15:26:55] doctrine.DEBUG: SELECT c.*, d.comments FROM all_tab_columns c INNER JOIN user_col_comments d ON d.TABLE_NAME = c.TABLE_NAME AND d.COLUMN_NAME = c.COLUMN_NAME WHERE c.table_name = 'JOURSFERIES' AND c.owner = 'ETAP' ORDER BY c.column_name [] []
+[2014-03-30 15:26:55] doctrine.DEBUG: SELECT alc.constraint_name,
+          alc.DELETE_RULE,
+          alc.search_condition,
+          cols.column_name "local_column",
+          cols.position,
+          r_alc.table_name "references_table",
+          r_cols.column_name "foreign_column"
+     FROM user_cons_columns cols
+LEFT JOIN user_constraints alc
+       ON alc.constraint_name = cols.constraint_name
+LEFT JOIN user_constraints r_alc
+       ON alc.r_constraint_name = r_alc.constraint_name
+LEFT JOIN user_cons_columns r_cols
+       ON r_alc.constraint_name = r_cols.constraint_name
+      AND cols.position = r_cols.position
+    WHERE alc.constraint_name = cols.constraint_name
+      AND alc.constraint_type = 'R'
+      AND alc.table_name = 'JOURSFERIES' [] []
+[2014-03-30 15:26:55] doctrine.DEBUG: SELECT uind.index_name AS name,        uind.index_type AS type,        decode( uind.uniqueness, 'NONUNIQUE', 0, 'UNIQUE', 1 ) AS is_unique,        uind_col.column_name AS column_name,        uind_col.column_position AS column_pos,        (SELECT ucon.constraint_type FROM user_constraints ucon WHERE ucon.constraint_name = uind.index_name) AS is_primary FROM user_indexes uind, user_ind_columns uind_col WHERE uind.index_name = uind_col.index_name AND uind_col.table_name = 'JOURSFERIES' ORDER BY uind_col.column_position ASC [] []
+[2014-03-30 15:26:55] doctrine.DEBUG: SELECT c.*, d.comments FROM all_tab_columns c INNER JOIN user_col_comments d ON d.TABLE_NAME = c.TABLE_NAME AND d.COLUMN_NAME = c.COLUMN_NAME WHERE c.table_name = 'BESOIN' AND c.owner = 'ETAP' ORDER BY c.column_name [] []
+[2014-03-30 15:26:55] doctrine.DEBUG: SELECT alc.constraint_name,
+          alc.DELETE_RULE,
+          alc.search_condition,
+          cols.column_name "local_column",
+          cols.position,
+          r_alc.table_name "references_table",
+          r_cols.column_name "foreign_column"
+     FROM user_cons_columns cols
+LEFT JOIN user_constraints alc
+       ON alc.constraint_name = cols.constraint_name
+LEFT JOIN user_constraints r_alc
+       ON alc.r_constraint_name = r_alc.constraint_name
+LEFT JOIN user_cons_columns r_cols
+       ON r_alc.constraint_name = r_cols.constraint_name
+      AND cols.position = r_cols.position
+    WHERE alc.constraint_name = cols.constraint_name
+      AND alc.constraint_type = 'R'
+      AND alc.table_name = 'BESOIN' [] []
+[2014-03-30 15:26:56] doctrine.DEBUG: SELECT uind.index_name AS name,        uind.index_type AS type,        decode( uind.uniqueness, 'NONUNIQUE', 0, 'UNIQUE', 1 ) AS is_unique,        uind_col.column_name AS column_name,        uind_col.column_position AS column_pos,        (SELECT ucon.constraint_type FROM user_constraints ucon WHERE ucon.constraint_name = uind.index_name) AS is_primary FROM user_indexes uind, user_ind_columns uind_col WHERE uind.index_name = uind_col.index_name AND uind_col.table_name = 'BESOIN' ORDER BY uind_col.column_position ASC [] []
+[2014-03-30 15:26:56] doctrine.DEBUG: SELECT c.*, d.comments FROM all_tab_columns c INNER JOIN user_col_comments d ON d.TABLE_NAME = c.TABLE_NAME AND d.COLUMN_NAME = c.COLUMN_NAME WHERE c.table_name = 'CONCESSION' AND c.owner = 'ETAP' ORDER BY c.column_name [] []
+[2014-03-30 15:26:56] doctrine.DEBUG: SELECT alc.constraint_name,
+          alc.DELETE_RULE,
+          alc.search_condition,
+          cols.column_name "local_column",
+          cols.position,
+          r_alc.table_name "references_table",
+          r_cols.column_name "foreign_column"
+     FROM user_cons_columns cols
+LEFT JOIN user_constraints alc
+       ON alc.constraint_name = cols.constraint_name
+LEFT JOIN user_constraints r_alc
+       ON alc.r_constraint_name = r_alc.constraint_name
+LEFT JOIN user_cons_columns r_cols
+       ON r_alc.constraint_name = r_cols.constraint_name
+      AND cols.position = r_cols.position
+    WHERE alc.constraint_name = cols.constraint_name
+      AND alc.constraint_type = 'R'
+      AND alc.table_name = 'CONCESSION' [] []
+[2014-03-30 15:26:56] doctrine.DEBUG: SELECT uind.index_name AS name,        uind.index_type AS type,        decode( uind.uniqueness, 'NONUNIQUE', 0, 'UNIQUE', 1 ) AS is_unique,        uind_col.column_name AS column_name,        uind_col.column_position AS column_pos,        (SELECT ucon.constraint_type FROM user_constraints ucon WHERE ucon.constraint_name = uind.index_name) AS is_primary FROM user_indexes uind, user_ind_columns uind_col WHERE uind.index_name = uind_col.index_name AND uind_col.table_name = 'CONCESSION' ORDER BY uind_col.column_position ASC [] []
+[2014-03-30 15:26:56] doctrine.DEBUG: SELECT c.*, d.comments FROM all_tab_columns c INNER JOIN user_col_comments d ON d.TABLE_NAME = c.TABLE_NAME AND d.COLUMN_NAME = c.COLUMN_NAME WHERE c.table_name = 'COMMISSION' AND c.owner = 'ETAP' ORDER BY c.column_name [] []
+[2014-03-30 15:26:56] doctrine.DEBUG: SELECT alc.constraint_name,
+          alc.DELETE_RULE,
+          alc.search_condition,
+          cols.column_name "local_column",
+          cols.position,
+          r_alc.table_name "references_table",
+          r_cols.column_name "foreign_column"
+     FROM user_cons_columns cols
+LEFT JOIN user_constraints alc
+       ON alc.constraint_name = cols.constraint_name
+LEFT JOIN user_constraints r_alc
+       ON alc.r_constraint_name = r_alc.constraint_name
+LEFT JOIN user_cons_columns r_cols
+       ON r_alc.constraint_name = r_cols.constraint_name
+      AND cols.position = r_cols.position
+    WHERE alc.constraint_name = cols.constraint_name
+      AND alc.constraint_type = 'R'
+      AND alc.table_name = 'COMMISSION' [] []
+[2014-03-30 15:26:57] doctrine.DEBUG: SELECT uind.index_name AS name,        uind.index_type AS type,        decode( uind.uniqueness, 'NONUNIQUE', 0, 'UNIQUE', 1 ) AS is_unique,        uind_col.column_name AS column_name,        uind_col.column_position AS column_pos,        (SELECT ucon.constraint_type FROM user_constraints ucon WHERE ucon.constraint_name = uind.index_name) AS is_primary FROM user_indexes uind, user_ind_columns uind_col WHERE uind.index_name = uind_col.index_name AND uind_col.table_name = 'COMMISSION' ORDER BY uind_col.column_position ASC [] []
+[2014-03-30 15:26:57] doctrine.DEBUG: SELECT c.*, d.comments FROM all_tab_columns c INNER JOIN user_col_comments d ON d.TABLE_NAME = c.TABLE_NAME AND d.COLUMN_NAME = c.COLUMN_NAME WHERE c.table_name = 'BANQUE' AND c.owner = 'ETAP' ORDER BY c.column_name [] []
+[2014-03-30 15:26:57] doctrine.DEBUG: SELECT alc.constraint_name,
+          alc.DELETE_RULE,
+          alc.search_condition,
+          cols.column_name "local_column",
+          cols.position,
+          r_alc.table_name "references_table",
+          r_cols.column_name "foreign_column"
+     FROM user_cons_columns cols
+LEFT JOIN user_constraints alc
+       ON alc.constraint_name = cols.constraint_name
+LEFT JOIN user_constraints r_alc
+       ON alc.r_constraint_name = r_alc.constraint_name
+LEFT JOIN user_cons_columns r_cols
+       ON r_alc.constraint_name = r_cols.constraint_name
+      AND cols.position = r_cols.position
+    WHERE alc.constraint_name = cols.constraint_name
+      AND alc.constraint_type = 'R'
+      AND alc.table_name = 'BANQUE' [] []
+[2014-03-30 15:26:57] doctrine.DEBUG: SELECT uind.index_name AS name,        uind.index_type AS type,        decode( uind.uniqueness, 'NONUNIQUE', 0, 'UNIQUE', 1 ) AS is_unique,        uind_col.column_name AS column_name,        uind_col.column_position AS column_pos,        (SELECT ucon.constraint_type FROM user_constraints ucon WHERE ucon.constraint_name = uind.index_name) AS is_primary FROM user_indexes uind, user_ind_columns uind_col WHERE uind.index_name = uind_col.index_name AND uind_col.table_name = 'BANQUE' ORDER BY uind_col.column_position ASC [] []
+[2014-03-30 15:26:57] doctrine.DEBUG: SELECT c.*, d.comments FROM all_tab_columns c INNER JOIN user_col_comments d ON d.TABLE_NAME = c.TABLE_NAME AND d.COLUMN_NAME = c.COLUMN_NAME WHERE c.table_name = 'UTILISATEUR' AND c.owner = 'ETAP' ORDER BY c.column_name [] []
+[2014-03-30 15:26:57] doctrine.DEBUG: SELECT alc.constraint_name,
+          alc.DELETE_RULE,
+          alc.search_condition,
+          cols.column_name "local_column",
+          cols.position,
+          r_alc.table_name "references_table",
+          r_cols.column_name "foreign_column"
+     FROM user_cons_columns cols
+LEFT JOIN user_constraints alc
+       ON alc.constraint_name = cols.constraint_name
+LEFT JOIN user_constraints r_alc
+       ON alc.r_constraint_name = r_alc.constraint_name
+LEFT JOIN user_cons_columns r_cols
+       ON r_alc.constraint_name = r_cols.constraint_name
+      AND cols.position = r_cols.position
+    WHERE alc.constraint_name = cols.constraint_name
+      AND alc.constraint_type = 'R'
+      AND alc.table_name = 'UTILISATEUR' [] []
+[2014-03-30 15:26:58] doctrine.DEBUG: SELECT uind.index_name AS name,        uind.index_type AS type,        decode( uind.uniqueness, 'NONUNIQUE', 0, 'UNIQUE', 1 ) AS is_unique,        uind_col.column_name AS column_name,        uind_col.column_position AS column_pos,        (SELECT ucon.constraint_type FROM user_constraints ucon WHERE ucon.constraint_name = uind.index_name) AS is_primary FROM user_indexes uind, user_ind_columns uind_col WHERE uind.index_name = uind_col.index_name AND uind_col.table_name = 'UTILISATEUR' ORDER BY uind_col.column_position ASC [] []
+[2014-03-30 15:26:58] doctrine.DEBUG: SELECT c.*, d.comments FROM all_tab_columns c INNER JOIN user_col_comments d ON d.TABLE_NAME = c.TABLE_NAME AND d.COLUMN_NAME = c.COLUMN_NAME WHERE c.table_name = 'PROFIL' AND c.owner = 'ETAP' ORDER BY c.column_name [] []
+[2014-03-30 15:26:58] doctrine.DEBUG: SELECT alc.constraint_name,
+          alc.DELETE_RULE,
+          alc.search_condition,
+          cols.column_name "local_column",
+          cols.position,
+          r_alc.table_name "references_table",
+          r_cols.column_name "foreign_column"
+     FROM user_cons_columns cols
+LEFT JOIN user_constraints alc
+       ON alc.constraint_name = cols.constraint_name
+LEFT JOIN user_constraints r_alc
+       ON alc.r_constraint_name = r_alc.constraint_name
+LEFT JOIN user_cons_columns r_cols
+       ON r_alc.constraint_name = r_cols.constraint_name
+      AND cols.position = r_cols.position
+    WHERE alc.constraint_name = cols.constraint_name
+      AND alc.constraint_type = 'R'
+      AND alc.table_name = 'PROFIL' [] []
+[2014-03-30 15:26:58] doctrine.DEBUG: SELECT uind.index_name AS name,        uind.index_type AS type,        decode( uind.uniqueness, 'NONUNIQUE', 0, 'UNIQUE', 1 ) AS is_unique,        uind_col.column_name AS column_name,        uind_col.column_position AS column_pos,        (SELECT ucon.constraint_type FROM user_constraints ucon WHERE ucon.constraint_name = uind.index_name) AS is_primary FROM user_indexes uind, user_ind_columns uind_col WHERE uind.index_name = uind_col.index_name AND uind_col.table_name = 'PROFIL' ORDER BY uind_col.column_position ASC [] []

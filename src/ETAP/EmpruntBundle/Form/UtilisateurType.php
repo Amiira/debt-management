@@ -12,6 +12,7 @@ class UtilisateurType extends AbstractType
     {
         $builder
             ->add('login')
+            ->add('matricule')
             ->add('motdepasse')
             ->add('nom')
             ->add('prenom')

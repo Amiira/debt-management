@@ -1,0 +1,30 @@
+contrat:
+    pattern:  /
+    defaults: { _controller: "EmpruntBundle:Contrat:index" }
+
+contrat_show:
+    pattern:  /{id}/show
+    defaults: { _controller: "EmpruntBundle:Contrat:show" }
+
+contrat_new:
+    pattern:  /new
+    defaults: { _controller: "EmpruntBundle:Contrat:new" }
+
+contrat_create:
+    pattern:  /create
+    defaults: { _controller: "EmpruntBundle:Contrat:create" }
+    requirements: { _method: post }
+
+contrat_edit:
+    pattern:  /{id}/edit
+    defaults: { _controller: "EmpruntBundle:Contrat:edit" }
+
+contrat_update:
+    pattern:  /{id}/update
+    defaults: { _controller: "EmpruntBundle:Contrat:update" }
+    requirements: { _method: post|put }
+
+contrat_delete:
+    pattern:  /{id}/delete
+    defaults: { _controller: "EmpruntBundle:Contrat:delete" }
+    requirements: { _method: post|delete }

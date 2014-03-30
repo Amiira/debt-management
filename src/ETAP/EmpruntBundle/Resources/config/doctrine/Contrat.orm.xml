@@ -5,7 +5,7 @@
       <index name="IDX_5F716789CC75C8D" columns="REFBANQUE"/>
       <index name="IDX_5F716789ECEA00FE" columns="CODEBESOIN"/>
     </indexes>
-    <id name="refcontrat" type="integer" column="REFCONTRAT">
+    <id name="id" type="integer" column="ID">
       <generator strategy="SEQUENCE"/>
     </id>
     <field name="datesignature" type="datetime" column="DATESIGNATURE" nullable="true"/>
@@ -17,15 +17,16 @@
     <field name="monnaiepayement" type="string" column="MONNAIEPAYEMENT" length="20" nullable="true"/>
     <field name="montant" type="integer" column="MONTANT" nullable="true"/>
     <field name="nbrtirage" type="integer" column="NBRTIRAGE" nullable="true"/>
+    <field name="refcontrat" type="integer" column="REFCONTRAT" nullable="true"/>
     <field name="tauxdirecteur" type="decimal" column="TAUXDIRECTEUR" precision="10" scale="3" nullable="true"/>
     <many-to-one field="refbanque" target-entity="Banque">
       <join-columns>
-        <join-column name="REFBANQUE" referenced-column-name="REFBANQUE"/>
+        <join-column name="REFBANQUE" referenced-column-name="ID"/>
       </join-columns>
     </many-to-one>
     <many-to-one field="codebesoin" target-entity="Besoin">
       <join-columns>
-        <join-column name="CODEBESOIN" referenced-column-name="CODEBESOIN"/>
+        <join-column name="CODEBESOIN" referenced-column-name="ID"/>
       </join-columns>
     </many-to-one>
     <many-to-many field="refcommission" target-entity="Commission" mapped-by="refcontrat"/>

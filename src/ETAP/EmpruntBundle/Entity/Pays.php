@@ -10,6 +10,11 @@ use Doctrine\ORM\Mapping as ORM;
 class Pays
 {
     /**
+     * @var integer
+     */
+    private $codepays;
+
+    /**
      * @var string
      */
     private $nom;
@@ -17,7 +22,7 @@ class Pays
     /**
      * @var integer
      */
-    private $codepays;
+    private $id;
 
     /**
      * @var \Doctrine\Common\Collections\Collection
@@ -30,6 +35,29 @@ class Pays
     public function __construct()
     {
         $this->codejf = new \Doctrine\Common\Collections\ArrayCollection();
+    }
+
+    /**
+     * Set codepays
+     *
+     * @param integer $codepays
+     * @return Pays
+     */
+    public function setCodepays($codepays)
+    {
+        $this->codepays = $codepays;
+
+        return $this;
+    }
+
+    /**
+     * Get codepays
+     *
+     * @return integer 
+     */
+    public function getCodepays()
+    {
+        return $this->codepays;
     }
 
     /**
@@ -56,13 +84,13 @@ class Pays
     }
 
     /**
-     * Get codepays
+     * Get id
      *
      * @return integer 
      */
-    public function getCodepays()
+    public function getId()
     {
-        return $this->codepays;
+        return $this->id;
     }
 
     /**

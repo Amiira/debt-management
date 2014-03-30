@@ -1,0 +1,30 @@
+offre:
+    pattern:  /
+    defaults: { _controller: "EmpruntBundle:Offre:index" }
+
+offre_show:
+    pattern:  /{id}/show
+    defaults: { _controller: "EmpruntBundle:Offre:show" }
+
+offre_new:
+    pattern:  /new
+    defaults: { _controller: "EmpruntBundle:Offre:new" }
+
+offre_create:
+    pattern:  /create
+    defaults: { _controller: "EmpruntBundle:Offre:create" }
+    requirements: { _method: post }
+
+offre_edit:
+    pattern:  /{id}/edit
+    defaults: { _controller: "EmpruntBundle:Offre:edit" }
+
+offre_update:
+    pattern:  /{id}/update
+    defaults: { _controller: "EmpruntBundle:Offre:update" }
+    requirements: { _method: post|put }
+
+offre_delete:
+    pattern:  /{id}/delete
+    defaults: { _controller: "EmpruntBundle:Offre:delete" }
+    requirements: { _method: post|delete }

@@ -4,9 +4,10 @@
     <indexes>
       <index name="IDX_58D244DFCC75C8D" columns="REFBANQUE"/>
     </indexes>
-    <id name="codeoffre" type="integer" column="CODEOFFRE">
+    <id name="id" type="integer" column="ID">
       <generator strategy="SEQUENCE"/>
     </id>
+    <field name="codeoffre" type="integer" column="CODEOFFRE" nullable="true"/>
     <field name="dateoffre" type="datetime" column="DATEOFFRE" nullable="true"/>
     <field name="devise" type="string" column="DEVISE" length="20" nullable="true"/>
     <field name="libelle" type="string" column="LIBELLE" length="20" nullable="true"/>
@@ -15,7 +16,7 @@
     <field name="tauxdirecteur" type="decimal" column="TAUXDIRECTEUR" precision="10" scale="3" nullable="true"/>
     <many-to-one field="refbanque" target-entity="Banque">
       <join-columns>
-        <join-column name="REFBANQUE" referenced-column-name="REFBANQUE"/>
+        <join-column name="REFBANQUE" referenced-column-name="ID"/>
       </join-columns>
     </many-to-one>
   </entity>

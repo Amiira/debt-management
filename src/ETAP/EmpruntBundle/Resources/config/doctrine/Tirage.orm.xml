@@ -4,14 +4,15 @@
     <indexes>
       <index name="IDX_DAEC9D79E7810BD6" columns="REFCONTRAT"/>
     </indexes>
-    <id name="reftirage" type="integer" column="REFTIRAGE">
+    <id name="id" type="integer" column="ID">
       <generator strategy="SEQUENCE"/>
     </id>
     <field name="datevaleur" type="datetime" column="DATEVALEUR" nullable="true"/>
     <field name="montant" type="decimal" column="MONTANT" precision="10" scale="3" nullable="true"/>
+    <field name="reftirage" type="integer" column="REFTIRAGE" nullable="true"/>
     <many-to-one field="refcontrat" target-entity="Contrat">
       <join-columns>
-        <join-column name="REFCONTRAT" referenced-column-name="REFCONTRAT"/>
+        <join-column name="REFCONTRAT" referenced-column-name="ID"/>
       </join-columns>
     </many-to-one>
     <many-to-many field="codeconcession" target-entity="Concession" mapped-by="reftirage"/>

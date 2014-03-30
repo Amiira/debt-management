@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <doctrine-mapping xmlns="http://doctrine-project.org/schemas/orm/doctrine-mapping" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://doctrine-project.org/schemas/orm/doctrine-mapping http://doctrine-project.org/schemas/orm/doctrine-mapping.xsd">
   <entity name="ETAP\EmpruntBundle\Entity\Joursferies" table="JOURSFERIES">
-    <id name="codejf" type="integer" column="CODEJF">
+    <id name="id" type="integer" column="ID">
       <generator strategy="SEQUENCE"/>
     </id>
     <field name="datejf" type="datetime" column="DATEJF" nullable="true"/>
-    <many-to-many field="codepays" target-entity="Pays" inversed-by="codejf">
-      <join-table name="paysjf">
-        <join-columns>
-          <join-column name="CODEJF" referenced-column-name="CODEJF"/>
-        </join-columns>
-        <inverse-join-columns>
-          <join-column name="CODEPAYS" referenced-column-name="CODEPAYS"/>
-        </inverse-join-columns>
-      </join-table>
-    </many-to-many>
     <many-to-many field="numremboursement" target-entity="Remboursement" inversed-by="codejf">
       <join-table name="remboursementjf">
         <join-columns>
-          <join-column name="CODEJF" referenced-column-name="CODEJF"/>
+          <join-column name="CODEJF" referenced-column-name="ID"/>
         </join-columns>
         <inverse-join-columns>
-          <join-column name="NUMREMBOURSEMENT" referenced-column-name="NUMREMBOURSEMENT"/>
+          <join-column name="NUMREMBOURSEMENT" referenced-column-name="ID"/>
+        </inverse-join-columns>
+      </join-table>
+    </many-to-many>
+    <many-to-many field="codepays" target-entity="Pays" inversed-by="codejf">
+      <join-table name="paysjf">
+        <join-columns>
+          <join-column name="CODEJF" referenced-column-name="ID"/>
+        </join-columns>
+        <inverse-join-columns>
+          <join-column name="CODEPAYS" referenced-column-name="ID"/>
         </inverse-join-columns>
       </join-table>
     </many-to-many>

@@ -1,0 +1,30 @@
+besoin:
+    pattern:  /
+    defaults: { _controller: "EmpruntBundle:Besoin:index" }
+
+besoin_show:
+    pattern:  /{id}/show
+    defaults: { _controller: "EmpruntBundle:Besoin:show" }
+
+besoin_new:
+    pattern:  /new
+    defaults: { _controller: "EmpruntBundle:Besoin:new" }
+
+besoin_create:
+    pattern:  /create
+    defaults: { _controller: "EmpruntBundle:Besoin:create" }
+    requirements: { _method: post }
+
+besoin_edit:
+    pattern:  /{id}/edit
+    defaults: { _controller: "EmpruntBundle:Besoin:edit" }
+
+besoin_update:
+    pattern:  /{id}/update
+    defaults: { _controller: "EmpruntBundle:Besoin:update" }
+    requirements: { _method: post|put }
+
+besoin_delete:
+    pattern:  /{id}/delete
+    defaults: { _controller: "EmpruntBundle:Besoin:delete" }
+    requirements: { _method: post|delete }

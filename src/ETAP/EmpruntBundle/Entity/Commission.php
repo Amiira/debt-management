@@ -22,7 +22,7 @@ class Commission
     /**
      * @var integer
      */
-    private $refcommission;
+    private $id;
 
     /**
      * @var \Doctrine\Common\Collections\Collection
@@ -84,13 +84,13 @@ class Commission
     }
 
     /**
-     * Get refcommission
+     * Get id
      *
      * @return integer 
      */
-    public function getRefcommission()
+    public function getId()
     {
-        return $this->refcommission;
+        return $this->id;
     }
 
     /**

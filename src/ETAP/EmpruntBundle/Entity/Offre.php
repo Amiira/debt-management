@@ -10,6 +10,11 @@ use Doctrine\ORM\Mapping as ORM;
 class Offre
 {
     /**
+     * @var integer
+     */
+    private $codeoffre;
+
+    /**
      * @var \DateTime
      */
     private $dateoffre;
@@ -42,13 +47,36 @@ class Offre
     /**
      * @var integer
      */
-    private $codeoffre;
+    private $id;
 
     /**
      * @var \ETAP\EmpruntBundle\Entity\Banque
      */
     private $refbanque;
 
+
+    /**
+     * Set codeoffre
+     *
+     * @param integer $codeoffre
+     * @return Offre
+     */
+    public function setCodeoffre($codeoffre)
+    {
+        $this->codeoffre = $codeoffre;
+
+        return $this;
+    }
+
+    /**
+     * Get codeoffre
+     *
+     * @return integer 
+     */
+    public function getCodeoffre()
+    {
+        return $this->codeoffre;
+    }
 
     /**
      * Set dateoffre
@@ -189,13 +217,13 @@ class Offre
     }
 
     /**
-     * Get codeoffre
+     * Get id
      *
      * @return integer 
      */
-    public function getCodeoffre()
+    public function getId()
     {
-        return $this->codeoffre;
+        return $this->id;
     }
 
     /**

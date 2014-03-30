@@ -9,3 +9,56 @@ emprunt_homepage:
 EmpruntBundle_utilisateur:
         resource: "@EmpruntBundle/Resources/config/routing/utilisateur.php"
         prefix:   /utilisateur
+        
+EmpruntBundle_banque:
+        resource: "@EmpruntBundle/Resources/config/routing/banque.yml"
+        prefix:   /banque
+        
+EmpruntBundle_besoin:
+        resource: "@EmpruntBundle/Resources/config/routing/besoin.yml"
+        prefix:   /besoin
+        
+EmpruntBundle_commission:
+        resource: "@EmpruntBundle/Resources/config/routing/commission.yml"
+        prefix:   /commission
+
+EmpruntBundle_concession:
+        resource: "@EmpruntBundle/Resources/config/routing/concession.yml"
+        prefix:   /concession
+        
+EmpruntBundle_contrat:
+        resource: "@EmpruntBundle/Resources/config/routing/contrat.yml"
+        prefix:   /contrat
+        
+EmpruntBundle_demande:
+        resource: "@EmpruntBundle/Resources/config/routing/demande.yml"
+        prefix:   /demande
+        
+EmpruntBundle_joursferies:
+        resource: "@EmpruntBundle/Resources/config/routing/joursferies.yml"
+        prefix:   /joursferies
+        
+EmpruntBundle_offre:
+        resource: "@EmpruntBundle/Resources/config/routing/offre.yml"
+        prefix:   /offre
+        
+EmpruntBundle_pays:
+        resource: "@EmpruntBundle/Resources/config/routing/pays.yml"
+        prefix:   /pays
+        
+EmpruntBundle_profil:
+        resource: "@EmpruntBundle/Resources/config/routing/profil.yml"
+        prefix:   /profil   
+        
+EmpruntBundle_remboursement:
+        resource: "@EmpruntBundle/Resources/config/routing/remboursement.yml"
+        prefix:   /remboursement
+        
+EmpruntBundle_tirage:
+        resource: "@EmpruntBundle/Resources/config/routing/tirage.yml"
+        prefix:   /tirage
+        
+EmpruntBundle_utilisateur:
+        resource: "@EmpruntBundle/Resources/config/routing/utilisateur.yml"
+        prefix:   /utilisateur      
+        

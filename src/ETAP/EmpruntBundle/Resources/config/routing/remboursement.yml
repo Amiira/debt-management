@@ -1,0 +1,30 @@
+remboursement:
+    pattern:  /
+    defaults: { _controller: "EmpruntBundle:Remboursement:index" }
+
+remboursement_show:
+    pattern:  /{id}/show
+    defaults: { _controller: "EmpruntBundle:Remboursement:show" }
+
+remboursement_new:
+    pattern:  /new
+    defaults: { _controller: "EmpruntBundle:Remboursement:new" }
+
+remboursement_create:
+    pattern:  /create
+    defaults: { _controller: "EmpruntBundle:Remboursement:create" }
+    requirements: { _method: post }
+
+remboursement_edit:
+    pattern:  /{id}/edit
+    defaults: { _controller: "EmpruntBundle:Remboursement:edit" }
+
+remboursement_update:
+    pattern:  /{id}/update
+    defaults: { _controller: "EmpruntBundle:Remboursement:update" }
+    requirements: { _method: post|put }
+
+remboursement_delete:
+    pattern:  /{id}/delete
+    defaults: { _controller: "EmpruntBundle:Remboursement:delete" }
+    requirements: { _method: post|delete }

@@ -55,6 +55,11 @@ class Contrat
     private $nbrtirage;
 
     /**
+     * @var integer
+     */
+    private $refcontrat;
+
+    /**
      * @var string
      */
     private $tauxdirecteur;
@@ -62,7 +67,7 @@ class Contrat
     /**
      * @var integer
      */
-    private $refcontrat;
+    private $id;
 
     /**
      * @var \ETAP\EmpruntBundle\Entity\Banque
@@ -295,6 +300,29 @@ class Contrat
     }
 
     /**
+     * Set refcontrat
+     *
+     * @param integer $refcontrat
+     * @return Contrat
+     */
+    public function setRefcontrat($refcontrat)
+    {
+        $this->refcontrat = $refcontrat;
+
+        return $this;
+    }
+
+    /**
+     * Get refcontrat
+     *
+     * @return integer 
+     */
+    public function getRefcontrat()
+    {
+        return $this->refcontrat;
+    }
+
+    /**
      * Set tauxdirecteur
      *
      * @param string $tauxdirecteur
@@ -318,13 +346,13 @@ class Contrat
     }
 
     /**
-     * Get refcontrat
+     * Get id
      *
      * @return integer 
      */
-    public function getRefcontrat()
+    public function getId()
     {
-        return $this->refcontrat;
+        return $this->id;
     }
 
     /**

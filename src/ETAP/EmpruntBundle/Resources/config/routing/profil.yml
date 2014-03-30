@@ -1,0 +1,30 @@
+profil:
+    pattern:  /
+    defaults: { _controller: "EmpruntBundle:Profil:index" }
+
+profil_show:
+    pattern:  /{id}/show
+    defaults: { _controller: "EmpruntBundle:Profil:show" }
+
+profil_new:
+    pattern:  /new
+    defaults: { _controller: "EmpruntBundle:Profil:new" }
+
+profil_create:
+    pattern:  /create
+    defaults: { _controller: "EmpruntBundle:Profil:create" }
+    requirements: { _method: post }
+
+profil_edit:
+    pattern:  /{id}/edit
+    defaults: { _controller: "EmpruntBundle:Profil:edit" }
+
+profil_update:
+    pattern:  /{id}/update
+    defaults: { _controller: "EmpruntBundle:Profil:update" }
+    requirements: { _method: post|put }
+
+profil_delete:
+    pattern:  /{id}/delete
+    defaults: { _controller: "EmpruntBundle:Profil:delete" }
+    requirements: { _method: post|delete }

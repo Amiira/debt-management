@@ -26,11 +26,6 @@ class Profil
      * @param string $libelle
      * @return Profil
      */
-    public function __toString()
-    {
-     return $this->libelle;
-    }
-    
     public function setLibelle($libelle)
     {
         $this->libelle = $libelle;
@@ -49,7 +44,7 @@ class Profil
     }
 
     /**
-     * Get codeprofil
+     * Get id
      *
      * @return integer 
      */

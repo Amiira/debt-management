@@ -1,0 +1,30 @@
+demande:
+    pattern:  /
+    defaults: { _controller: "EmpruntBundle:Demande:index" }
+
+demande_show:
+    pattern:  /{id}/show
+    defaults: { _controller: "EmpruntBundle:Demande:show" }
+
+demande_new:
+    pattern:  /new
+    defaults: { _controller: "EmpruntBundle:Demande:new" }
+
+demande_create:
+    pattern:  /create
+    defaults: { _controller: "EmpruntBundle:Demande:create" }
+    requirements: { _method: post }
+
+demande_edit:
+    pattern:  /{id}/edit
+    defaults: { _controller: "EmpruntBundle:Demande:edit" }
+
+demande_update:
+    pattern:  /{id}/update
+    defaults: { _controller: "EmpruntBundle:Demande:update" }
+    requirements: { _method: post|put }
+
+demande_delete:
+    pattern:  /{id}/delete
+    defaults: { _controller: "EmpruntBundle:Demande:delete" }
+    requirements: { _method: post|delete }

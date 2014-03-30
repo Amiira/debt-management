@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <doctrine-mapping xmlns="http://doctrine-project.org/schemas/orm/doctrine-mapping" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://doctrine-project.org/schemas/orm/doctrine-mapping http://doctrine-project.org/schemas/orm/doctrine-mapping.xsd">
   <entity name="ETAP\EmpruntBundle\Entity\Concession" table="CONCESSION">
-    <id name="codeconcession" type="integer" column="CODECONCESSION">
+    <id name="id" type="integer" column="ID">
       <generator strategy="SEQUENCE"/>
     </id>
     <field name="datecreation" type="datetime" column="DATECREATION" nullable="true"/>
     <field name="description" type="string" column="DESCRIPTION" length="20" nullable="true"/>
     <field name="nom" type="string" column="NOM" length="20" nullable="true"/>
     <field name="valeurrealisation" type="integer" column="VALEURREALISATION" nullable="true"/>
+    <many-to-many field="codebesoin" target-entity="Besoin" mapped-by="codeconcession"/>
     <many-to-many field="reftirage" target-entity="Tirage" inversed-by="codeconcession">
       <join-table name="tirageconcession">
         <join-columns>
-          <join-column name="CODECONCESSION" referenced-column-name="CODECONCESSION"/>
+          <join-column name="CODECONCESSION" referenced-column-name="ID"/>
         </join-columns>
         <inverse-join-columns>
-          <join-column name="REFTIRAGE" referenced-column-name="REFTIRAGE"/>
+          <join-column name="REFTIRAGE" referenced-column-name="ID"/>
         </inverse-join-columns>
       </join-table>
     </many-to-many>
-    <many-to-many field="codebesoin" target-entity="Besoin" mapped-by="codeconcession"/>
   </entity>
 </doctrine-mapping>

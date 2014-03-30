@@ -25,6 +25,11 @@ class Tirage
     private $reftirage;
 
     /**
+     * @var integer
+     */
+    private $id;
+
+    /**
      * @var \ETAP\EmpruntBundle\Entity\Contrat
      */
     private $refcontrat;
@@ -89,6 +94,19 @@ class Tirage
     }
 
     /**
+     * Set reftirage
+     *
+     * @param integer $reftirage
+     * @return Tirage
+     */
+    public function setReftirage($reftirage)
+    {
+        $this->reftirage = $reftirage;
+
+        return $this;
+    }
+
+    /**
      * Get reftirage
      *
      * @return integer 
@@ -96,6 +114,16 @@ class Tirage
     public function getReftirage()
     {
         return $this->reftirage;
+    }
+
+    /**
+     * Get id
+     *
+     * @return integer 
+     */
+    public function getId()
+    {
+        return $this->id;
     }
 
     /**

@@ -32,7 +32,7 @@ class Besoin
     /**
      * @var integer
      */
-    private $codebesoin;
+    private $id;
 
     /**
      * @var \Doctrine\Common\Collections\Collection
@@ -140,13 +140,13 @@ class Besoin
     }
 
     /**
-     * Get codebesoin
+     * Get id
      *
      * @return integer 
      */
-    public function getCodebesoin()
+    public function getId()
     {
-        return $this->codebesoin;
+        return $this->id;
     }
 
     /**

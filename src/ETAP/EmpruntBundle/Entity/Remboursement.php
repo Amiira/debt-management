@@ -45,6 +45,11 @@ class Remboursement
     private $nbrjours;
 
     /**
+     * @var integer
+     */
+    private $numremboursement;
+
+    /**
      * @var string
      */
     private $remboursementtotal;
@@ -67,7 +72,7 @@ class Remboursement
     /**
      * @var integer
      */
-    private $numremboursement;
+    private $id;
 
     /**
      * @var \ETAP\EmpruntBundle\Entity\Tirage
@@ -249,6 +254,29 @@ class Remboursement
     }
 
     /**
+     * Set numremboursement
+     *
+     * @param integer $numremboursement
+     * @return Remboursement
+     */
+    public function setNumremboursement($numremboursement)
+    {
+        $this->numremboursement = $numremboursement;
+
+        return $this;
+    }
+
+    /**
+     * Get numremboursement
+     *
+     * @return integer 
+     */
+    public function getNumremboursement()
+    {
+        return $this->numremboursement;
+    }
+
+    /**
      * Set remboursementtotal
      *
      * @param string $remboursementtotal
@@ -341,13 +369,13 @@ class Remboursement
     }
 
     /**
-     * Get numremboursement
+     * Get id
      *
      * @return integer 
      */
-    public function getNumremboursement()
+    public function getId()
     {
-        return $this->numremboursement;
+        return $this->id;
     }
 
     /**

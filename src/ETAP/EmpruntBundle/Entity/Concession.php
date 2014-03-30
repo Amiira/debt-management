@@ -32,12 +32,7 @@ class Concession
     /**
      * @var integer
      */
-    private $codeconcession;
-
-    /**
-     * @var \Doctrine\Common\Collections\Collection
-     */
-    private $reftirage;
+    private $id;
 
     /**
      * @var \Doctrine\Common\Collections\Collection
@@ -45,12 +40,17 @@ class Concession
     private $codebesoin;
 
     /**
+     * @var \Doctrine\Common\Collections\Collection
+     */
+    private $reftirage;
+
+    /**
      * Constructor
      */
     public function __construct()
     {
-        $this->reftirage = new \Doctrine\Common\Collections\ArrayCollection();
         $this->codebesoin = new \Doctrine\Common\Collections\ArrayCollection();
+        $this->reftirage = new \Doctrine\Common\Collections\ArrayCollection();
     }
 
     /**
@@ -146,46 +146,13 @@ class Concession
     }
 
     /**
-     * Get codeconcession
+     * Get id
      *
      * @return integer 
      */
-    public function getCodeconcession()
+    public function getId()
     {
-        return $this->codeconcession;
-    }
-
-    /**
-     * Add reftirage
-     *
-     * @param \ETAP\EmpruntBundle\Entity\Tirage $reftirage
-     * @return Concession
-     */
-    public function addReftirage(\ETAP\EmpruntBundle\Entity\Tirage $reftirage)
-    {
-        $this->reftirage[] = $reftirage;
-
-        return $this;
-    }
-
-    /**
-     * Remove reftirage
-     *
-     * @param \ETAP\EmpruntBundle\Entity\Tirage $reftirage
-     */
-    public function removeReftirage(\ETAP\EmpruntBundle\Entity\Tirage $reftirage)
-    {
-        $this->reftirage->removeElement($reftirage);
-    }
-
-    /**
-     * Get reftirage
-     *
-     * @return \Doctrine\Common\Collections\Collection 
-     */
-    public function getReftirage()
-    {
-        return $this->reftirage;
+        return $this->id;
     }
 
     /**
@@ -219,5 +186,38 @@ class Concession
     public function getCodebesoin()
     {
         return $this->codebesoin;
+    }
+
+    /**
+     * Add reftirage
+     *
+     * @param \ETAP\EmpruntBundle\Entity\Tirage $reftirage
+     * @return Concession
+     */
+    public function addReftirage(\ETAP\EmpruntBundle\Entity\Tirage $reftirage)
+    {
+        $this->reftirage[] = $reftirage;
+
+        return $this;
+    }
+
+    /**
+     * Remove reftirage
+     *
+     * @param \ETAP\EmpruntBundle\Entity\Tirage $reftirage
+     */
+    public function removeReftirage(\ETAP\EmpruntBundle\Entity\Tirage $reftirage)
+    {
+        $this->reftirage->removeElement($reftirage);
+    }
+
+    /**
+     * Get reftirage
+     *
+     * @return \Doctrine\Common\Collections\Collection 
+     */
+    public function getReftirage()
+    {
+        return $this->reftirage;
     }
 }

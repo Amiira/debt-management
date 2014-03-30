@@ -30,6 +30,11 @@ class Demande
     private $refdemande;
 
     /**
+     * @var integer
+     */
+    private $id;
+
+    /**
      * @var \Doctrine\Common\Collections\Collection
      */
     private $refbanque;
@@ -112,6 +117,19 @@ class Demande
     }
 
     /**
+     * Set refdemande
+     *
+     * @param integer $refdemande
+     * @return Demande
+     */
+    public function setRefdemande($refdemande)
+    {
+        $this->refdemande = $refdemande;
+
+        return $this;
+    }
+
+    /**
      * Get refdemande
      *
      * @return integer 
@@ -119,6 +137,16 @@ class Demande
     public function getRefdemande()
     {
         return $this->refdemande;
+    }
+
+    /**
+     * Get id
+     *
+     * @return integer 
+     */
+    public function getId()
+    {
+        return $this->id;
     }
 
     /**
