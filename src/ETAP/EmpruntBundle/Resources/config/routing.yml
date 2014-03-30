@@ -1,0 +1,11 @@
+emprunt_homepage:
+    pattern:  /index/
+    defaults: { _controller: EmpruntBundle:Default:index }
+    
+emprunt_homepage:
+    pattern:  /index/dashboard.html
+    defaults: { _controller: EmpruntBundle:Default:dashboard }
+    
+EmpruntBundle_utilisateur:
+        resource: "@EmpruntBundle/Resources/config/routing/utilisateur.php"
+        prefix:   /utilisateur

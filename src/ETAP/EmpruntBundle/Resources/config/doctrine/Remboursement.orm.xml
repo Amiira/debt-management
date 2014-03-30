@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doctrine-mapping xmlns="http://doctrine-project.org/schemas/orm/doctrine-mapping" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://doctrine-project.org/schemas/orm/doctrine-mapping http://doctrine-project.org/schemas/orm/doctrine-mapping.xsd">
+  <entity name="ETAP\EmpruntBundle\Entity\Remboursement" table="REMBOURSEMENT">
+    <indexes>
+      <index name="IDX_E68CDB0A9725CD4E" columns="REFTIRAGE"/>
+    </indexes>
+    <id name="numremboursement" type="integer" column="NUMREMBOURSEMENT">
+      <generator strategy="SEQUENCE"/>
+    </id>
+    <field name="dateecheance" type="datetime" column="DATEECHEANCE" nullable="true"/>
+    <field name="libor" type="decimal" column="LIBOR" precision="10" scale="3" nullable="true"/>
+    <field name="montantinteret" type="decimal" column="MONTANTINTERET" precision="10" scale="3" nullable="true"/>
+    <field name="montantprincipal" type="decimal" column="MONTANTPRINCIPAL" precision="10" scale="3" nullable="true"/>
+    <field name="montantrestantdu" type="decimal" column="MONTANTRESTANTDU" precision="10" scale="3" nullable="true"/>
+    <field name="montanttotal" type="decimal" column="MONTANTTOTAL" precision="10" scale="3" nullable="true"/>
+    <field name="nbrjours" type="integer" column="NBRJOURS" nullable="true"/>
+    <field name="remboursementtotal" type="decimal" column="REMBOURSEMENTTOTAL" precision="10" scale="3" nullable="true"/>
+    <field name="tauxinteret" type="decimal" column="TAUXINTERET" precision="10" scale="3" nullable="true"/>
+    <field name="totalinteret" type="decimal" column="TOTALINTERET" precision="10" scale="3" nullable="true"/>
+    <field name="totalprincipal" type="decimal" column="TOTALPRINCIPAL" precision="10" scale="3" nullable="true"/>
+    <many-to-one field="reftirage" target-entity="Tirage">
+      <join-columns>
+        <join-column name="REFTIRAGE" referenced-column-name="REFTIRAGE"/>
+      </join-columns>
+    </many-to-one>
+    <many-to-many field="codejf" target-entity="Joursferies" mapped-by="numremboursement"/>
+  </entity>
+</doctrine-mapping>

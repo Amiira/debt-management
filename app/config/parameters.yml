@@ -1,0 +1,14 @@
+parameters:
+    database_driver: pdo_oci
+    database_host: 127.0.0.1
+    database_port: '1521'
+    database_name: XE
+    database_user: ETAP
+    database_password: etap
+    mailer_transport: smtp
+    mailer_host: 127.0.0.1
+    mailer_user: null
+    mailer_password: null
+    locale: en
+    secret: f78757e8aa87e091e43fbbeddb9fd36949636eea
+    database_path: null

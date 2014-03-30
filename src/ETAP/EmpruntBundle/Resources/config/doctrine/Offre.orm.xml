@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doctrine-mapping xmlns="http://doctrine-project.org/schemas/orm/doctrine-mapping" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://doctrine-project.org/schemas/orm/doctrine-mapping http://doctrine-project.org/schemas/orm/doctrine-mapping.xsd">
+  <entity name="ETAP\EmpruntBundle\Entity\Offre" table="OFFRE">
+    <indexes>
+      <index name="IDX_58D244DFCC75C8D" columns="REFBANQUE"/>
+    </indexes>
+    <id name="codeoffre" type="integer" column="CODEOFFRE">
+      <generator strategy="SEQUENCE"/>
+    </id>
+    <field name="dateoffre" type="datetime" column="DATEOFFRE" nullable="true"/>
+    <field name="devise" type="string" column="DEVISE" length="20" nullable="true"/>
+    <field name="libelle" type="string" column="LIBELLE" length="20" nullable="true"/>
+    <field name="marge" type="decimal" column="MARGE" precision="10" scale="3" nullable="true"/>
+    <field name="montantpropose" type="integer" column="MONTANTPROPOSE" nullable="true"/>
+    <field name="tauxdirecteur" type="decimal" column="TAUXDIRECTEUR" precision="10" scale="3" nullable="true"/>
+    <many-to-one field="refbanque" target-entity="Banque">
+      <join-columns>
+        <join-column name="REFBANQUE" referenced-column-name="REFBANQUE"/>
+      </join-columns>
+    </many-to-one>
+  </entity>
+</doctrine-mapping>
